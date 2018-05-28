@@ -64,6 +64,7 @@ if __name__ == "__main__":
 
     print
     print "[+] All continued fractions for 4090249588 / 2899386061"
+    print "[+] (these were just two random 32-bit numbers I chose)"
     print "[+] Unlike for pi, this is a rational number, so eventually terminates"
     x = fractions.Fraction(4090249588, 2899386061)
     x = continued_fraction_rational(x)
