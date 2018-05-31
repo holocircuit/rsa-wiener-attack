@@ -70,6 +70,3 @@ if __name__ == "__main__":
     x = continued_fraction_rational(x)
     for (p, q) in x:
         print "%10d / %10d" % (p, q) 
-
- 
-   
